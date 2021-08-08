@@ -28,3 +28,11 @@ Project on Peer to Peer file sharing.
     3.2. Connecting with server.    -->    connect(sockfd,(struct sockaddr*) &serv_addr,sizeof(serv_addr); <Br/>
     3.3. Reading sent message.    -->    read(newsockfd,buffer,1024); <Br/>
     3.4. Writing message.    -->    write(newsockfd,buffer,strlen(buffer)); <Br/> <Br/>
+
+# Reference
+
+1. Beej’s guide for network programming. (https://beej.us/guide/bgnet/)
+2. Advanced Programming in the UNIX Environment,3rd Edition. (https://1lib.in/book/2714429/9df329)
+3. Think and Learn. (https://youtu.be/_lQ-3S4fJ0U)
+4. Lecture 25 Socket Programming-II. (https://youtu.be/JExfKvUgrtI) 
+5. Geeks for Geeks. (https://www.geeksforgeeks.org/socket-programming-cc/)
